@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AG Sutura Couture - Le style avec dignité</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        [dir="rtl"] {
+            text-align: right;
+            direction: rtl;
+        }
+        
+        [dir="rtl"] .hero .container,
+        [dir="rtl"] .about-content {
+            flex-direction: row-reverse;
+        }
+        
+        [dir="rtl"] .contact-content {
+            direction: rtl;
+        }
+        
+        [lang="ar"] {
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header avec logo -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">AG SUTURA COUTURE</h1>
+                <p class="slogan" data-i18n="footer.slogan">Le style avec dignité</p>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="nav-links">
+                    <a href="#accueil" class="nav-link" data-i18n="nav.home">Accueil</a>
+                    <a href="#apropos" class="nav-link" data-i18n="nav.about">À propos</a>
+                    <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+                    <a href="#galerie" class="nav-link" data-i18n="nav.gallery">Galerie</a>
+                    <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+                </div>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+            
+            <!-- Sélecteur de langue -->
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ar">AR</button>
+                <button class="lang-btn" data-lang="ha">HA</button>
+            </div>
+            
+            <!-- Bouton WhatsApp -->
+            <a href="https://wa.me/22788904490" class="whatsapp-btn" target="_blank" data-i18n="whatsapp">
+                <i class="fab fa-whatsapp"></i> Contact WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- Section Hero -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title" data-i18n="hero.title">L'art de la couture précise</h2>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Atelier de couture sur mesure à Niamey</p>
+                <p class="hero-description" data-i18n="hero.description">
+                    Création de tenues traditionnelles et modernes, retouches précises et service sur mesure pour sublimer votre style avec élégance et dignité.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.button1">
+                        <i class="fas fa-phone-alt"></i> Prendre rendez-vous
+                    </a>
+                    <a href="#galerie" class="btn btn-secondary" data-i18n="hero.button2">
+                        <i class="fas fa-images"></i> Voir nos réalisations
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/atelier/atelier1.jpg" alt="Atelier AG Sutura Couture" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="about.title">À propos de l'atelier</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-i18n="about.subtitle">AG Sutura Couture</h3>
+                    <p data-i18n="about.description">Fondé par <strong> Monsieur Abdoul-Ghaffar Moumouni</strong>, notre atelier incarne l'excellence de la couture à Niamey. Avec passion et précision, nous transformons le tissu en œuvres d'art élégantes.</p>
+                    
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fas fa-award"></i>
+                            <h4 data-i18n="about.values.excellence">Excellence</h4>
+                            <p data-i18n="about.values.excellence_desc">Précision et qualité dans chaque point</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-heart"></i>
+                            <h4 data-i18n="about.values.passion">Passion</h4>
+                            <p data-i18n="about.values.passion_desc">Amour du métier et du travail bien fait</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-user-tie"></i>
+                            <h4 data-i18n="about.values.elegance">Élégance</h4>
+                            <p data-i18n="about.values.elegance_desc">Style et dignité dans chaque création</p>
+                        </div>
+                    </div>
+                    
+                    <div class="experience">
+                        <h4 data-i18n="about.commitment">Notre engagement :</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="about.commitment_items0">Écoute attentive de vos besoins</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="about.commitment_items1">Conseils sur mesure</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="about.commitment_items2">Respect des délais</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-i18n="about.commitment_items3">Finitions impeccables</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="images/portrait/abdoul-ghaffar.jpg" alt="Abdoul-Ghaffar - Fondateur AG Sutura Couture" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="services.title">Nos Services</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle" data-i18n="services.subtitle">Des solutions sur mesure pour chaque besoin</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ruler-combined"></i>
+                    </div>
+                    <h3 data-i18n="services.custom.title">Couture sur mesure</h3>
+                    <p data-i18n="services.custom.description">Créeation de tenues uniques parfaitement adaptées à votre morphologie et à votre style.</p>
+                    <ul class="service-list">
+                        <li data-i18n="services.custom.items0">Tenues traditionnelles</li>
+                        <li data-i18n="services.custom.items1">Costumes modernes</li>
+                        <li data-i18n="services.custom.items2">Robes de cérémonie</li>
+                        <li data-i18n="services.custom.items3">Vêtements quotidiens</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3 data-i18n="services.alterations.title">Retouches et ajustements</h3>
+                    <p data-i18n="services.alterations.description">Réparation et modification de vos vêtements pour une silhouette parfaite.</p>
+                    <ul class="service-list">
+                        <li data-i18n="services.alterations.items0">Ourlets</li>
+                        <li data-i18n="services.alterations.items1">Rétrécissements/élargissements</li>
+                        <li data-i18n="services.alterations.items2">Réparations invisibles</li>
+                        <li data-i18n="services.alterations.items3">Transformations</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-vest"></i>
+                    </div>
+                    <h3 data-i18n="services.traditional.title">Tenues traditionnelles</h3>
+                    <p data-i18n="services.traditional.description">Conception de vêtements culturels avec respect des traditions et modernité.</p>
+                    <ul class="service-list">
+                        <li data-i18n="services.traditional.items0">Boubou</li>
+                        <li data-i18n="services.traditional.items1">Kaftan</li>
+                        <li data-i18n="services.traditional.items2">Tenues de mariage</li>
+                        <li data-i18n="services.traditional.items3">Cérémonies traditionnelles</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <h3 data-i18n="services.professional.title">Vêtements professionnels</h3>
+                    <p data-i18n="services.professional.description">Créeation d'uniformes et tenues de travail élégantes et fonctionnelles.</p>
+                    <ul class="service-list">
+                        <li data-i18n="services.professional.items0">Costumes d'affaires</li>
+                        <li data-i18n="services.professional.items1">Uniforme d'entreprise</li>
+                        <li data-i18n="services.professional.items2">Tenues de service</li>
+                        <li data-i18n="services.professional.items3">Vêtements professionnels</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="service-cta">
+                <p data-i18n="services.quote">Besoin d'un devis personnalisé ?</p>
+                <a href="https://wa.me/22788904490" class="btn btn-primary" target="_blank" data-i18n="services.quote_button">
+                    <i class="fab fa-whatsapp"></i> Demander un devis
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galerie -->
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="gallery.title">Nos Réalisations</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle" data-i18n="gallery.subtitle">Découvrez l'excellence de notre travail</p>
+            </div>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all" data-i18n="gallery.filters.all">Toutes</button>
+                <button class="filter-btn" data-filter="traditionnel" data-i18n="gallery.filters.traditional">Traditionnel</button>
+                <button class="filter-btn" data-filter="moderne" data-i18n="gallery.filters.modern">Moderne</button>
+                <button class="filter-btn" data-filter="sur-mesure" data-i18n="gallery.filters.custom">Sur mesure</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="traditionnel">
+                    <div class="gallery-image">
+                        <img src="images/creations/boubou1.jpg" alt="Boubou traditionnel élégant" loading="lazy">
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Boubou élégant</h4>
+                        <p>Tissu : Bazin riche - Réalisé en 2026</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="moderne">
+                    <div class="gallery-image">
+                        <img src="images/creations/costume1.jpg" alt="Costume moderne sur mesure" loading="lazy">
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Costume sur mesure</h4>
+                        <p>Tissu : Laine fine</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="sur-mesure">
+                    <div class="gallery-image">
+                        <img src="images/creations/robe1.jpg" alt="Robe de cérémonie sur mesure" loading="lazy">
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Robe de mariage</h4>
+                        <p>Tissu : Satin et dentelle</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="traditionnel">
+                    <div class="gallery-image">
+                        <img src="images/creations/kaftan1.jpg" alt="Kaftan brodé traditionnel" loading="lazy">
+                    </div>
+                    <div class="gallery-info">
+                        <h4>tenue cérémoniel</h4>
+                        <p>Tissu : Brocart doré</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="moderne">
+                    <div class="gallery-image">
+                        <img src="images/creations/ensemble1.jpg" alt="Ensemble moderne" loading="lazy">
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Ensemble moderne</h4>
+                        <p>Tissu : Coton premium</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="sur-mesure">
+                    <div class="gallery-image">
+                        <img src="images/creations/uniforme1.jpg" alt="Uniforme professionnel" loading="lazy">
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Uniforme d'entreprise</h4>
+                        <p>Tissu : Polyester professionnel</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-cta">
+                <p data-i18n="gallery.cta">Vous avez un projet spécifique en tête ?</p>
+                <a href="#contact" class="btn btn-primary" data-i18n="gallery.cta_button">Discutons-en</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="contact.title">Contactez-nous</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle" data-i18n="contact.subtitle">Nous sommes à votre écoute</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4 data-i18n="contact.location">Notre atelier</h4>
+                            <p data-i18n="contact.address">Niamey, NY 2000</p>
+                            <p data-i18n="contact.country">Niger</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4 data-i18n="contact.phone">Téléphone</h4>
+                            <p data-i18n="contact.phone_number">+227 88 90 44 90</p>
+                            <p data-i18n="contact.hours">Lun - jeu : 8h - 18h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4 data-i18n="contact.whatsapp">WhatsApp</h4>
+                            <p data-i18n="contact.phone_number">+227 88 90 44 90</p>
+                            <p data-i18n="contact.whatsapp_desc">Réponse rapide</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4 data-i18n="contact.schedule">Horaires</h4>
+                            <p data-i18n="contact.schedule_days">Lundi - Samedi</p>
+                            <p data-i18n="contact.schedule_hours">8h00 - 18h00</p>
+                            <p data-i18n="contact.schedule_sunday">Sur rendez-vous le dimanche</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3 data-i18n="contact.form_title">Prendre rendez-vous</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Votre nom complet" data-i18n-placeholder="contact.form_name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Votre numéro de téléphone" data-i18n-placeholder="contact.form_phone" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Votre adresse email" data-i18n-placeholder="contact.form_email">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="" data-i18n="contact.form_service">Type de service souhaité</option>
+                                <option value="sur-mesure" data-i18n="contact.form_service_options0">Couture sur mesure</option>
+                                <option value="retouches" data-i18n="contact.form_service_options1">Retouches</option>
+                                <option value="traditionnel" data-i18n="contact.form_service_options2">Tenue traditionnelle</option>
+                                <option value="moderne" data-i18n="contact.form_service_options3">Tenue moderne</option>
+                                <option value="uniforme" data-i18n="contact.form_service_options4">Uniforme professionnel</option>
+                                <option value="autre" data-i18n="contact.form_service_options5">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Décrivez votre projet..." data-i18n-placeholder="contact.form_message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="contact.form_button">
+                            <i class="fas fa-paper-plane"></i> Envoyer la demande
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3 data-i18n="footer.title">AG SUTURA COUTURE</h3>
+                    <p class="slogan" data-i18n="footer.slogan">Le style avec dignité</p>
+                    <p data-i18n="footer.description">Atelier de couture sur mesure à Niamey</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-i18n="footer.quick_links">Liens rapides</h4>
+                    <a href="#accueil" data-i18n="nav.home">Accueil</a>
+                    <a href="#apropos" data-i18n="nav.about">À propos</a>
+                    <a href="#services" data-i18n="nav.services">Services</a>
+                    <a href="#galerie" data-i18n="nav.gallery">Galerie</a>
+                    <a href="#contact" data-i18n="nav.contact">Contact</a>
+                </div>
+                
+                <div class="footer-services">
+                    <h4 data-i18n="footer.our_services">Nos services</h4>
+                    <a href="#services" data-i18n="services.custom.title">Couture sur mesure</a>
+                    <a href="#services" data-i18n="services.alterations.title">Retouches</a>
+                    <a href="#services" data-i18n="services.traditional.title">Tenues traditionnelles</a>
+                    <a href="#services" data-i18n="services.professional.title">Vêtements modernes</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 data-i18n="nav.contact">Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="contact.address">Niamey, NY 2000</span></p>
+                    <p><i class="fas fa-phone-alt"></i> <span data-i18n="contact.phone_number">+227 88 90 44 90</span></p>
+                    <p><i class="fab fa-whatsapp"></i> <span data-i18n="contact.phone_number">+227 88 90 44 90</span></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; <span class="current-year">2026</span> AG Sutura Couture. Tous droits réservés.</p>
+                <p data-i18n="footer.made_with">Site créé avec passion par Monsieur Abdoul-Ghaffar Moumouni</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bouton WhatsApp flottant -->
+    <a href="https://wa.me/22788904490" class="whatsapp-float" target="_blank" data-i18n="whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
