@@ -1,0 +1,121 @@
+{
+    "site": {
+        "title": "AG Sutura Couture - Salo tare da mutunci",
+        "description": "Ginin dinki na musamman a Niamey"
+    },
+    "nav": {
+        "home": "Shafin farko",
+        "about": "Game da mu",
+        "services": "Ayyukanmu",
+        "gallery": "Hotunan ayyukanmu",
+        "contact": "Tuntuɓe mu"
+    },
+    "hero": {
+        "title": "Fasahar dinki mai daidaito",
+        "subtitle": "Ginin dinki na musamman a Niamey",
+        "description": "Ƙirƙirar tufafi na gargajiya da na zamani, gyare-gyare masu daidaito da sabis na musamman don haɓaka salonku tare da kyakkyawa da mutunci.",
+        "button1": "Yi alƙawari",
+        "button2": "Dubi ayyukanmu"
+    },
+    "about": {
+        "title": "Game da gininmu",
+        "subtitle": "AG Sutura Couture",
+        "description": "Wanda Abdoul-Ghaffar ya kafa, gininmu yana wakiltar ƙwararrun dinki a Niamey. Tare da sha'awa da daidaito, muna canza zane zuwa ayyukan fasaha masu kyau.",
+        "values": {
+            "excellence": "Ƙwararru",
+            "excellence_desc": "Daidaito da inganci a kowane ɗinki",
+            "passion": "Sha'awa",
+            "passion_desc": "Ƙaunar sana'a da aikin da aka yi da kyau",
+            "elegance": "Kyakkyawa",
+            "elegance_desc": "Salo da mutunci a kowane ƙirƙira"
+        },
+        "commitment": "Alkawarinmu:",
+        "commitment_items": [
+            "Sauraron bukatunku",
+            "Shawarwari na musamman",
+            "Mutunta wa'adin",
+            "Ƙarewa mara aibi"
+        ]
+    },
+    "services": {
+        "title": "Ayyukanmu",
+        "subtitle": "Magunguna na musamman ga kowane buƙata",
+        "custom": {
+            "title": "Dinki na musamman",
+            "description": "Ƙirƙirar tufafi na musamman waɗanda suka dace da jikinku da salonku.",
+            "items": ["Tufafin gargajiya", "Rigunan zamani", "Rigunan biki", "Tufafin yau da kullun"]
+        },
+        "alterations": {
+            "title": "Gyare-gyare da daidaitawa",
+            "description": "Gyara da canza tufafinku don daidaitaccen siffa.",
+            "items": ["Gefuna", "Ƙuntatawa/faɗaɗawa", "Gyare-gyaren da ba a gani", "Canje-canje"]
+        },
+        "traditional": {
+            "title": "Tufafin gargajiya",
+            "description": "Ƙira na tufafin al'adu tare da girmama al'adu da zamani.",
+            "items": ["Boubou", "Kaftan", "Tufafin aure", "Bukukuwan gargajiya"]
+        },
+        "professional": {
+            "title": "Tufafin sana'a",
+            "description": "Ƙirƙirar riguna da tufafin aiki masu kyau da aiki.",
+            "items": ["Rigunan kasuwanci", "Rigunan kamfani", "Tufafin hidima", "Tufafin sana'a"]
+        },
+        "quote": "Kuna buƙatar farashin na musamman?",
+        "quote_button": "Nemi farashi"
+    },
+    "gallery": {
+        "title": "Ayyukanmu",
+        "subtitle": "Gano ƙwararrun aikinmu",
+        "filters": {
+            "all": "Duka",
+            "traditional": "Gargajiya",
+            "modern": "Zamani",
+            "custom": "Na musamman"
+        },
+        "cta": "Kuna da aiki na musamman a zuciyarku?",
+        "cta_button": "Mu yi magana"
+    },
+    "contact": {
+        "title": "Tuntuɓe mu",
+        "subtitle": "Muna nan don sauraronku",
+        "location": "Gininmu",
+        "address": "Niamey, NY 2000",
+        "country": "Nijar",
+        "phone": "Wayar tarho",
+        "phone_number": "+227 88 90 44 90",
+        "hours": "Litinin - Asabar: 8 na safe - 6 na yamma",
+        "whatsapp": "WhatsApp",
+        "whatsapp_desc": "Amsa cikin sauri",
+        "schedule": "Lokutan aiki",
+        "schedule_days": "Litinin - Asabar",
+        "schedule_hours": "8:00 na safe - 6:00 na yamma",
+        "schedule_sunday": "Bisa alƙawari ranar Lahadi",
+        "form_title": "Yi alƙawari",
+        "form_service": "Nau'in sabis da ake so",
+        "form_name": "Cikakken sunanku",
+        "form_phone": "Lambar wayarku",
+        "form_email": "Adireshinku na imel",
+        "form_message": "Bayyana ayyukinku...",
+        "form_button": "Aika buƙatar",
+        "form_service_options": [
+            "Dinki na musamman",
+            "Gyare-gyare",
+            "Tufafin gargajiya",
+            "Tufafin zamani",
+            "Rigar sana'a",
+            "Wani"
+        ]
+    },
+    "footer": {
+        "title": "AG SUTURA COUTURE",
+        "slogan": "Salo tare da mutunci",
+        "description": "Ginin dinki na musamman a Niamey",
+        "quick_links": "Hanyoyin sauri",
+        "our_services": "Ayyukanmu",
+        "copyright": "© 2026 AG Sutura Couture. Duk haƙƙoƙin suna karewa.",
+        "made_with": "An ƙirƙiri gidan yanar gizon tare da sha'awa ta Malan Abdoul-Ghaffar Moumouni"
+    },
+    "whatsapp": "Tuntuɓe ta WhatsApp",
+    "appointment": "Yi alƙawari",
+    "see_works": "Dubi ayyukanmu"
+}

@@ -1,0 +1,121 @@
+{
+    "site": {
+        "title": "AG Sutura Couture - Style with Dignity",
+        "description": "Custom tailoring workshop in Niamey"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "gallery": "Gallery",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "The Art of Precise Tailoring",
+        "subtitle": "Custom tailoring workshop in Niamey",
+        "description": "Creation of traditional and modern outfits, precise alterations and custom service to enhance your style with elegance and dignity.",
+        "button1": "Make an Appointment",
+        "button2": "See Our Works"
+    },
+    "about": {
+        "title": "About the Workshop",
+        "subtitle": "AG Sutura Couture",
+        "description": "Founded by Mr Abdoul-Ghaffar Moumouni, our workshop embodies tailoring excellence in Niamey. With passion and precision, we transform fabric into elegant works of art.",
+        "values": {
+            "excellence": "Excellence",
+            "excellence_desc": "Precision and quality in every stitch",
+            "passion": "Passion",
+            "passion_desc": "Love for the craft and well-done work",
+            "elegance": "Elegance",
+            "elegance_desc": "Style and dignity in every creation"
+        },
+        "commitment": "Our Commitment:",
+        "commitment_items": [
+            "Attentive listening to your needs",
+            "Custom advice",
+            "Respect for deadlines",
+            "Impeccable finishes"
+        ]
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Custom solutions for every need",
+        "custom": {
+            "title": "Custom Tailoring",
+            "description": "Creation of unique outfits perfectly adapted to your morphology and style.",
+            "items": ["Traditional outfits", "Modern suits", "Ceremony dresses", "Everyday clothes"]
+        },
+        "alterations": {
+            "title": "Alterations and Adjustments",
+            "description": "Repair and modification of your clothes for a perfect fit.",
+            "items": ["Hems", "Narrowing/widening", "Invisible repairs", "Transformations"]
+        },
+        "traditional": {
+            "title": "Traditional Outfits",
+            "description": "Design of cultural clothing with respect for traditions and modernity.",
+            "items": ["Boubou", "Kaftan", "Wedding outfits", "Traditional ceremonies"]
+        },
+        "professional": {
+            "title": "Professional Clothing",
+            "description": "Creation of elegant and functional uniforms and work clothes.",
+            "items": ["Business suits", "Corporate uniforms", "Service outfits", "Professional clothing"]
+        },
+        "quote": "Need a personalized quote?",
+        "quote_button": "Request a Quote"
+    },
+    "gallery": {
+        "title": "Our Creations",
+        "subtitle": "Discover the excellence of our work",
+        "filters": {
+            "all": "All",
+            "traditional": "Traditional",
+            "modern": "Modern",
+            "custom": "Custom"
+        },
+        "cta": "Do you have a specific project in mind?",
+        "cta_button": "Let's discuss it"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "We are here to listen to you",
+        "location": "Our Workshop",
+        "address": "Niamey, NY 2000",
+        "country": "Niger",
+        "phone": "Phone",
+        "phone_number": "+227 88 90 44 90",
+        "hours": "Mon - Thu: 8am - 6pm",
+        "whatsapp": "WhatsApp",
+        "whatsapp_desc": "Quick response",
+        "schedule": "Schedule",
+        "schedule_days": "Monday - Saturday",
+        "schedule_hours": "8:00 AM - 6:00 PM",
+        "schedule_sunday": "By appointment on Sunday",
+        "form_title": "Make an Appointment",
+        "form_service": "Type of service desired",
+        "form_name": "Your full name",
+        "form_phone": "Your phone number",
+        "form_email": "Your email address",
+        "form_message": "Describe your project...",
+        "form_button": "Send Request",
+        "form_service_options": [
+            "Custom tailoring",
+            "Alterations",
+            "Traditional outfit",
+            "Modern outfit",
+            "Professional uniform",
+            "Other"
+        ]
+    },
+    "footer": {
+        "title": "AG SUTURA COUTURE",
+        "slogan": "Style with Dignity",
+        "description": "Custom tailoring workshop in Niamey",
+        "quick_links": "Quick Links",
+        "our_services": "Our Services",
+        "copyright": "© 2026 AG Sutura Couture. All rights reserved.",
+        "made_with": "Website created with passion by Mr Abdoul-Ghaffar"
+    },
+    "whatsapp": "Contact WhatsApp",
+    "appointment": "Make an Appointment",
+    "see_works": "See Our Works"
+}

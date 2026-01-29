@@ -1,0 +1,121 @@
+{
+    "site": {
+        "title": "AG Sutura Couture - Le style avec dignité",
+        "description": "Atelier de couture sur mesure à Niamey"
+    },
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "gallery": "Galerie",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "L'art de la couture précise",
+        "subtitle": "Atelier de couture sur mesure à Niamey",
+        "description": "Création de tenues traditionnelles et modernes, retouches précises et service sur mesure pour sublimer votre style avec élégance et dignité.",
+        "button1": "Prendre rendez-vous",
+        "button2": "Voir nos réalisations"
+    },
+    "about": {
+        "title": "À propos de l'atelier",
+        "subtitle": "AG Sutura Couture",
+        "description": "Fondé par M. Abdoul-Ghaffar, notre atelier incarne l'excellence de la couture à Niamey. Avec passion et précision, nous transformons le tissu en œuvres d'art élégantes.",
+        "values": {
+            "excellence": "Excellence",
+            "excellence_desc": "Précision et qualité dans chaque point",
+            "passion": "Passion",
+            "passion_desc": "Amour du métier et du travail bien fait",
+            "elegance": "Élégance",
+            "elegance_desc": "Style et dignité dans chaque création"
+        },
+        "commitment": "Notre engagement :",
+        "commitment_items": [
+            "Écoute attentive de vos besoins",
+            "Conseils sur mesure",
+            "Respect des délais",
+            "Finitions impeccables"
+        ]
+    },
+    "services": {
+        "title": "Nos Services",
+        "subtitle": "Des solutions sur mesure pour chaque besoin",
+        "custom": {
+            "title": "Couture sur mesure",
+            "description": "Création de tenues uniques parfaitement adaptées à votre morphologie et à votre style.",
+            "items": ["Tenues traditionnelles", "Costumes modernes", "Robes de cérémonie", "Vêtements quotidiens"]
+        },
+        "alterations": {
+            "title": "Retouches et ajustements",
+            "description": "Réparation et modification de vos vêtements pour une silhouette parfaite.",
+            "items": ["Ourlets", "Rétrécissements/élargissements", "Réparations invisibles", "Transformations"]
+        },
+        "traditional": {
+            "title": "Tenues traditionnelles",
+            "description": "Conception de vêtements culturels avec respect des traditions et modernité.",
+            "items": ["Boubou", "Kaftan", "Tenues de mariage", "Cérémonies traditionnelles"]
+        },
+        "professional": {
+            "title": "Vêtements professionnels",
+            "description": "Création d'uniformes et tenues de travail élégantes et fonctionnelles.",
+            "items": ["Costumes d'affaires", "Uniforme d'entreprise", "Tenues de service", "Vêtements professionnels"]
+        },
+        "quote": "Besoin d'un devis personnalisé ?",
+        "quote_button": "Demander un devis"
+    },
+    "gallery": {
+        "title": "Nos Réalisations",
+        "subtitle": "Découvrez l'excellence de notre travail",
+        "filters": {
+            "all": "Toutes",
+            "traditional": "Traditionnel",
+            "modern": "Moderne",
+            "custom": "Sur mesure"
+        },
+        "cta": "Vous avez un projet spécifique en tête ?",
+        "cta_button": "Discutons-en"
+    },
+    "contact": {
+        "title": "Contactez-nous",
+        "subtitle": "Nous sommes à votre écoute",
+        "location": "Notre atelier",
+        "address": "Niamey, NY 2000",
+        "country": "Niger",
+        "phone": "Téléphone",
+        "phone_number": "+227 88 90 44 90",
+        "hours": "Lun - Sam : 8h - 18h",
+        "whatsapp": "WhatsApp",
+        "whatsapp_desc": "Réponse rapide",
+        "schedule": "Horaires",
+        "schedule_days": "Lundi - Samedi",
+        "schedule_hours": "8h00 - 18h00",
+        "schedule_sunday": "Sur rendez-vous le dimanche",
+        "form_title": "Prendre rendez-vous",
+        "form_service": "Type de service souhaité",
+        "form_name": "Votre nom complet",
+        "form_phone": "Votre numéro de téléphone",
+        "form_email": "Votre adresse email",
+        "form_message": "Décrivez votre projet...",
+        "form_button": "Envoyer la demande",
+        "form_service_options": [
+            "Couture sur mesure",
+            "Retouches",
+            "Tenue traditionnelle",
+            "Tenue moderne",
+            "Uniforme professionnel",
+            "Autre"
+        ]
+    },
+    "footer": {
+        "title": "AG SUTURA COUTURE",
+        "slogan": "Le style avec dignité",
+        "description": "Atelier de couture sur mesure à Niamey",
+        "quick_links": "Liens rapides",
+        "our_services": "Nos services",
+        "copyright": "© 2026 AG Sutura Couture. Tous droits réservés.",
+        "made_with": "Site créé avec passion par Abdoul-Ghaffar"
+    },
+    "whatsapp": "Contact WhatsApp",
+    "appointment": "Prendre rendez-vous",
+    "see_works": "Voir nos réalisations"
+}
